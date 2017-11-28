@@ -1,0 +1,14 @@
+Wojtek Fica
+
+Problem obiadujących filozofów - proste rozwiązanie. Program może działać w dwóch trybach:
+(i)  Tryb z użyciem algorytmu piekarni. W tym trybie żaden filozof nie zostanie zagłodzony.
+(ii) Tryb "kogo wybierze planista ten je": Możliwe jest równoległe jedzienie kilku filozofów, 
+     ale też zagłodzenie filozofa!
+
+Kompilacja:
+    make filo
+
+Użycie:
+    tryb (i)    ./filo.out 
+    tryb (ii)   ./filo.out starving
+
